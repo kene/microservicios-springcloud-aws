@@ -1,0 +1,17 @@
+info:
+  component: SpringConfig-Server
+  
+  
+server:
+  port: 8888
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kene/servicesnetflix
+          
+          
+  profiles:
+    active: dev
